@@ -1,0 +1,89 @@
+/* Para tablets */
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  .context-container {
+    flex-direction: column;
+    padding: 2%;
+  }
+  .img-container img {
+    max-width: 100%;
+  }
+  .skills-container p {
+    flex: 0 0 30%;
+  }
+}
+
+/* Para móviles */
+@media screen and (max-width: 768px) {
+  .logo img {
+    max-width: 70px;
+  }
+  
+  .context-container {
+    padding: 5%;
+  }
+  
+  .skills-container {
+    flex-direction: column;
+  }
+  
+  .skills-container p {
+    flex: 0 0 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .projects-container {
+    flex-direction: column;
+  }
+  
+  .project-card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .video-container video {
+    height: 40vh;
+  }
+  
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex; /* Solo visible en móvil */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  #whatsapp-button {
+    display: flex;
+  }
+}
+
+/* Pantallas muy pequeñas */
+@media screen and (max-width: 480px) {
+  .logo div {
+    font-size: 1rem;
+  }
+  
+  .video-container video {
+    height: 30vh;
+  }
+  
+  .text-container h2 {
+    font-size: 1.5rem;
+  }
+}

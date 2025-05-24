@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JG Cosntruciones</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>  
+    <nav id="desktop-nav">
+    <div class="logo">
+        <img src="assets/jg-logo.png"></img>
+        <div style="font-family: 'Saira Stencil One', serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        ">Jorge Galvan Construcciones</div>
+    </div>
+    <div>
+      <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#Nosotros">Nosotros</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="btn-cita-container">
+        <button id="btn-cita" class="btn-cita" >Agendar</button>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">
+      <img src="assets/jg-logo.png" alt="Logo JG Construcciones">
+    </div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu-links"> 
+        <li><a href="#inicio" onclick="toggleMenu()">Inicio</a></li>
+        <li><a href="#Nosotros" onclick="toggleMenu()">Nosotros</a></li>
+        <li><a href="#proyectos" onclick="toggleMenu()">Proyectos</a></li>
+        <li><a href="#contacto" onclick="toggleMenu()">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="inicio">
+    <div class="container">
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="assets/jgvideo.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+  </section>  
+  <section id="Nosotros">
+    <div class="container">
+        <div class="context-container">
+            <div class="img-container">
+                <img src="assets/jg-info.jpg"></img>
+            </div>
+            <div class="text-container">
+                <h2>Nosotros</h2>
+                <p style="margin: 2%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus vitae ligula gravida facilisis. Donec ut felis vel libero consectetur consectetur. Nulla facilisi. Sed malesuada, arcu vel tincidunt tristique, velit justo laoreet diam, a bibendum est enim at nunc. Sed ac consectetur mi, in condimentum arcu. Nulla facilisi.</p>
+                <h2>Nuestras especialidades</h2>
+                <div class="skills-container">
+                            <p><a href="#Steel">Steel Framing</a></p>
+                            <p><a href="#Barbacoa">Barbacoas</a></p>
+                            <p><a href="#Decks">Decks</a></p>
+                            <p><a href="#Impermeabilizaciones">Impermeabilizaciones</a></p>
+                            <p><a href="#Reformas">Reformas</a></p>
+                            <p><a href="#Pinturas">Pinturas</a></p>
+                            <p><a href="#Pergolas">Pergolas</a></p>
+                            <p><a href="#Electricidad">Electricidad</a></p>
+                            <p><a href="#Trabajos">Trabajos en altura</a></p>
+                            <p><a href="#Herreria">Herreria</a></p>
+                </div>  
+           </div>
+            
+        </div>
+    </div>
+  </section>
+  <section id="proyectos">
+    <div class="container" style="background-color:  rgb(0, 0, 0); "  >
+        <div class="title">
+            <h1>Proyectos</h1>
+            <h3>Planeados y realizados</h3>
+        
+        </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="assets/altura.jfif"></img>
+                <div class="project-info">
+                    <h3>Proyecto 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus vitae ligula gravida facilisis.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/altura.jfif"></img>
+                <div class="project-info">
+                    <h3>Proyecto 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus vitae ligula gravida facilisis.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/altura.jfif"></img>
+                <div class="project-info">
+                    <h3>Proyecto 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus vitae ligula gravida facilisis.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/altura.jfif"></img>
+                <div class="project-info">
+                    <h3>Proyecto 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus vitae ligula gravida facilisis.</p>
+                </div>
+            </div>
+  </section>
+  <section id="contacto">
+     <div class="container">
+        <div class="contact-container">
+              <h1>Contactanos</h1>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus harum deserunt sit quaerat sapiente illum maxime, repellat a ad dolorem quia cumque adipisci modi culpa eos aut. Velit, sequi unde?</p>
+        </div>
+
+    </div>
+</section>
+<!-- Botón de WApp -->
+<a id="whatsapp-button">
+  <img src="assets/whatsapp-icon.png" alt="WhatsApp">
+</a>
+<script src="script.js"></script>
+</body>

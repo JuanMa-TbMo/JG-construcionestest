@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .saira-stencil-one-regular {
+    font-family: "Saira Stencil One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lato-thin {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  
+  body {
+    
+    font-family: "Lato", serif;
+    
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  p {
+    color: rgb(85, 85, 85);
+    margin-top: 10px;
+  }
+  
+  /* TRANSITION */
+  
+  a,
+  .btn {
+    transition: all 300ms ease;
+  }
+  
+  /* DESKTOP NAV */
+  
+  nav,
+  .nav-links {
+    display: flex;
+  }
+  
+  nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    background-color: black;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    gap: auto;
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    
+  
+  
+  }
+  
+  .nav-links {
+
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+    font-size: 2rem; 
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    background-size: 100%;
+    background-clip: text;
+    color: rgb(150, 53, 53);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(146, 61, 61);
+  }
+  
+  .logo {
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+    height: 100%; 
+    font-size: 1.2rem;
+
+}
+
+.logo img {
+    max-width: 100px;
+    max-height: 100px;
+    height: auto; 
+    width: auto; 
+}
+  .logo:hover {
+    cursor: pointer;
+  }
+  
+  
+  .btn-cita-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+  }
+  .btn-cita{
+    background-color: transparent;
+    border-radius: 6em;
+    padding: 5%;
+    width: 100%;
+    font-size: 1.4em;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition: color 0.3s ease;
+  }
+  .btn-cita:hover{
+    cursor: pointer;
+    border-color: rgb(146, 61, 61);
+    color: rgb(150, 53, 53);
+  }
+  /* HAMBURGER MENU */
+
+#hamburger-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000000; 
+  padding: 15px 20px;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.hamburger-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hamburger-icon {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.hamburger-icon span {
+  display: block !important;
+  width: 100%;
+  height: 3px;
+  background-color: #963535 !important; /* Rayas blancas */
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Menú desplegable */
+.menu-links {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #963535; 
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.menu-links.open {
+  max-height: 500px;
+}
+
+.menu-links a {
+  display: block;
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white !important;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Animaciones del ícono */
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    box-shadow: -7px 0 10px  #000;
+    flex-wrap: wrap;
+   
+
+}
+
+.video-container {
+    position: relative; 
+    width: 100%;
+    max-height: 100vh; 
+    overflow: hidden; 
+}
+
+.video-container video {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.6), 0 -20px 10px rgba(0, 0, 0, 0.6);
+}
+.context-container{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    padding-top: none;
+    border: none;
+    gap:1.3em;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+   
+}
+.img-container img{
+    max-width:800px;
+    max-height:450px;
+    width: auto;
+    height: auto;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.text-container h2{
+    margin: 2%;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: none;
+    border: none;
+    margin-top: 5%;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+.skills-container p {
+    flex: 0 0 15%;
+    box-sizing: border-box; 
+}
+.skills-container a{
+    color: black;
+    transition: all 0.3 ease-in-out;
+    font-size: 1.3em !important;
+}
+.skills-container a:hover {
+    background-clip: text;
+    color: rgb(150, 53, 53);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(146, 61, 61);
+  }
+  .title{
+    color: rgb(150, 53, 53);
+    font-weight: bold;
+    font-size: 3.5em;
+    margin: 2%;
+  }
+  .projects-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: none;
+    border: none;
+    margin-top: 5%;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    color: rgb(150, 53, 53);
+    font-size: 1.5em;
+  }
+  
+  .project-card{
+    width: 30%;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 1em;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: rgb(150, 53, 53);
+   
+
+  }
+  .project-card:hover{
+    cursor: pointer;
+  }
+  .project-card img{
+    width: auto;
+    height: auto;
+  }
+  .project-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  .project-info h3{
+    font-size: 1.8em;
+    color: white;
+    transition: all 0.3 ease;
+  }
+  .project-info h3:hover{
+    color: rgb(150, 53, 53);
+  }
+
+  .contact-container{
+    margin: 1em;
+  }
+
+  /* WApp */
+#whatsapp-button {
+  display: none; 
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  justify-content: center;
+  align-items: center;
+}
+
+#whatsapp-button img {
+  width: 40px;
+  height: 40px;
+}
+
+#whatsapp-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
