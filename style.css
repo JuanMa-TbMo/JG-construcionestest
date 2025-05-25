@@ -365,18 +365,19 @@
     align-items: center;
     justify-content: center;
     border:rgb(255, 255, 255) solid;
-    border-left: none;
+
     border-width: 1px;
     padding: 0.2em;
     border-radius: 5px;
     transition: all 0.5s ease;
+    overflow: hidden;
 }
   .project-card:hover {
     transform: translateY(-5px);
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     border: #963535 solid;
-    border-left: none;
+   
 }
   .project-card:hover h3{
     color: black;
@@ -388,9 +389,11 @@
     transition: all 0.5s ease;
   }
   .project-card img{
+    transition: transform 0.5s ease;
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
     border-radius: 5px;
-    width: auto;
-    height: auto;
   
    
   }

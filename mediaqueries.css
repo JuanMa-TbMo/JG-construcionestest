@@ -77,6 +77,55 @@
   .grid-imagenes {
         grid-template-columns: 1fr; /* 1 columna en móviles */
     }
+ .projects-container {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .project-card {
+    width: 85%;
+    min-width: unset;
+    max-width: 350px;
+    flex-direction: column;
+    margin: 0 auto 1.5rem;
+    border: 1px solid rgb(255, 255, 255) ;
+    padding: 0;
+  }
+
+  .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .project-info {
+    padding: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .project-info h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  /* Ajustes para el hover en móviles */
+  .project-card:hover {
+    transform: none;
+    background-color: #000;
+    border:#963535 solid;
+  }
+
+  .project-card:hover h3 {
+    color: white;
+  }
+
+  .project-card:active {
+    transform: scale(0.98);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
 }
 
 /* Pantallas muy pequeñas */
