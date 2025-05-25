@@ -89,6 +89,7 @@
 
   .project-card {
     width: 85%;
+    height: 70%;
     min-width: unset;
     max-width: 350px;
     flex-direction: column;
