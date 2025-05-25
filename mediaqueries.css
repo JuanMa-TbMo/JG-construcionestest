@@ -19,6 +19,9 @@
   .skills-container p {
     flex: 0 0 30%;
   }
+  .grid-imagenes {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en tablets */
+    }
 }
 
 /* Para móviles */
@@ -45,7 +48,7 @@
   }
   
   .project-card {
-    width: 100%;
+    width: 90%;
     margin-bottom: 2rem;
   }
   
@@ -71,6 +74,9 @@
   #whatsapp-button {
     display: flex;
   }
+  .grid-imagenes {
+        grid-template-columns: 1fr; /* 1 columna en móviles */
+    }
 }
 
 /* Pantallas muy pequeñas */
@@ -86,4 +92,6 @@
   .text-container h2 {
     font-size: 1.5rem;
   }
+
+  
 }
