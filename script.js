@@ -26,13 +26,6 @@ const proyectos = [
         carpeta: "obras-en-proceso"
     },
     {
-        imagen: "assets/placeholder.svg",
-        titulo: "Reforma Integral",
-        descripcion: "Remodelación completa de apartamento en zona céntrica",
-        carpeta: "reforma-integral"
-
-    },
-    {
         imagen: "assets/herreria.jpg",
         titulo: "Herreria",
         descripcion: "Construcciones industriales con estructura de acero",
@@ -48,7 +41,7 @@ const proyectos = [
         imagen: "assets/imp.jpg",
         titulo: "Impermeabilización y Pintura",
         descripcion: "Impermeabilización y Pintura de techos y paredes",
-        carpeta: "imp"
+        carpeta: "imper"
     }
 
 ];
