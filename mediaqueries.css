@@ -133,6 +133,33 @@
     background-color: rgba(255, 255, 255, 0.1);
   }
 
+  .obras-container {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    
+  .obra-card {
+        width: 90%;
+        margin: 0 auto 1.5rem;
+    }
+
+    .contact-methods {
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .contact-item {
+    width: 85%;
+  
+  }
+  .contact-item a {
+    font-size: 1.2rem;
+  }
+  
+  .contact-container h1 {
+    font-size: 2rem;
+  }
+
 }
 
 /* Pantallas muy pequeñas */
