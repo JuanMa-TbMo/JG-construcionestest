@@ -349,14 +349,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: stretch; 
     gap: 2rem;
     padding: 2rem;
 }
   
   .project-card {
     width: calc(33.333% - 2rem);
-    min-width: 300px;
+    width: 40%;
+    height: 200px;
     box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.4);
     margin-bottom: 2rem;
     background-color: #000;
@@ -371,6 +372,7 @@
     border-radius: 5px;
     transition: all 0.5s ease;
     overflow: hidden;
+
 }
   .project-card:hover {
     transform: translateY(-5px);
@@ -390,15 +392,19 @@
   }
   .project-card img{
     transition: transform 0.5s ease;
-    width: 100%;
-    max-height: 250px;
+    width: 50%;
+    height: 200px;
     object-fit: cover;
+    object-position: center;
+    display: block;
     border-radius: 5px;
+    flex-shrink: 0;
   
    
   }
   .project-info{
     display: flex;
+    flex:1;
     flex-direction: column;
     justify-content: space-between;
     padding: 2em;
@@ -407,6 +413,11 @@
     font-size: 1.8em;
     color: white;
     transition: all 0.3 ease;
+  }
+  
+  .project-info p{
+    color: rgb(180, 180, 180);
+    flex: 1;
   }
   .project-info h3:hover{
     color: rgb(150, 53, 53);

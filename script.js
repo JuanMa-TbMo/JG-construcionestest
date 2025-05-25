@@ -14,42 +14,43 @@ function toggleMenu() {
 // Array de proyectos
 const proyectos = [
     {
-        imagen: "assets/altura.jfif",
+        imagen: "assets/terminadas.jpg",
         titulo: "Obras Terminadas",
         descripcion: "Obras en casas, edificios, camaras. Construcción en general",
         carpeta: "obras-terminadas"
     },
     {
-        imagen: "assets/altura.jfif",
+        imagen: "assets/proceso.jpg",
         titulo: "Obras En Proceso",
         descripcion: "Realización de nuestros proyectos y construcciones",
         carpeta: "obras-en-proceso"
     },
     {
-        imagen: "assets/altura.jfif",
-        titulo: "Proyecto Residencial",
-        descripcion: "Construcción de vivienda unifamiliar con diseño moderno",
-        carpeta: "residencial"
-    },
-    {
-        imagen: "assets/altura.jfif",
+        imagen: "assets/placeholder.svg",
         titulo: "Reforma Integral",
         descripcion: "Remodelación completa de apartamento en zona céntrica",
         carpeta: "reforma-integral"
 
     },
     {
-        imagen: "assets/altura.jfif",
-        titulo: "Estructura Metálica",
-        descripcion: "Construcción de nave industrial con estructura de acero",
-        carpeta: "estructura-metalica"
+        imagen: "assets/herreria.jpg",
+        titulo: "Herreria",
+        descripcion: "Construcciones industriales con estructura de acero",
+        carpeta: "herreria"
     },
     {
-        imagen: "assets/altura.jfif",
+        imagen: "assets/piscina.jpg",
         titulo: "Piscina y Deck",
-        descripcion: "Instalación de piscina modular y deck de madera",
+        descripcion: "Instalación de piscinas y deck de madera",
         carpeta: "piscina-deck"
+    },
+     {
+        imagen: "assets/imp.jpg",
+        titulo: "Impermeabilización y Pintura",
+        descripcion: "Impermeabilización y Pintura de techos y paredes",
+        carpeta: "imp"
     }
+
 ];
 
 function cargarProyectos() {
