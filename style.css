@@ -83,6 +83,10 @@
     color: rgb(85, 85, 85);
     margin-top: 10px;
   }
+
+  img {
+    content-visibility: auto;
+  }
   
   /* TRANSITION */
   
@@ -90,6 +94,7 @@
   .btn {
     transition: all 300ms ease;
   }
+  
   
   /* DESKTOP NAV */
   
@@ -599,6 +604,7 @@
 .contact-item h3 {
   color: #963535;
   margin-bottom: 5px;
+  font-size: 1.2rem;
 }
 
 .contact-item a {
@@ -606,6 +612,7 @@
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
+  font-size: 1.1rem;
 }
 
 .contact-item a:hover {
@@ -642,6 +649,7 @@
   text-align: center;
   font-size: 1.2rem;
   margin-top: 20px;
+  color: black;
 }
 
 .map-container {

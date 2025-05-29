@@ -17,14 +17,15 @@ const proyectos = [
         id: "obras-terminadas",
         titulo: "Obras Terminadas",
         descripcion: "Obras en casas, edificios, cámaras. Construcción en general",
-        imagen: "assets/terminadas.jpg",
+        imagen: "assets/terminadas.webp",
         obras: [
             {
                 id: "casa-1",
                 titulo: "Casa Residencial en Montevideo",
                 descripcion: "Construcción completa de vivienda familiar",
-                imagenPrincipal: "assets/obras-terminadas/casa1-principal.jpg",
+                imagenPrincipal: "assets/obras-terminadas/casa1-principal.webp",
                 fotos: [
+                    "assets/obras-terminadas/casa1-principal.webp",
                     "assets/obras-terminadas/casa1-1.jpg",
                     "assets/obras-terminadas/casa1-2.jpg",
                     "assets/obras-terminadas/casa1-3.jpg",
@@ -36,13 +37,106 @@ const proyectos = [
                 ]
             },
             {
-                id: "edificio-2",
-                titulo: "Edificio de Oficinas",
-                descripcion: "Construcción de edificio de 5 plantas",
-                imagenPrincipal: "assets/obras-terminadas/edificio2-principal.jpg",
+                id: "cocina-1",
+                titulo:"Remodelacion de cocina en apartamento",
+                descripcion: "Remodelación completa de cocina en apartamento",  
+                imagenPrincipal: "assets/obras-terminadas/cocina1-principal.webp",
                 fotos: [
-                    "assets/obras-terminadas/edificio2-1.jpg",
-                    "assets/obras-terminadas/edificio2-2.jpg"
+                    "assets/obras-terminadas/cocina1-principal.webp",
+                    "assets/obras-terminadas/cocina1-1.jpg",
+                    "assets/obras-terminadas/cocina1-2.jpg",
+                    "assets/obras-terminadas/cocina1-3.jpg",
+                ]
+            },
+            {
+                id:"casa-2",
+                titulo: "Remodelación de casa en Montevideo",
+                descripcion: "Remodelación completa de casa con ampliación",
+                imagenPrincipal: "assets/obras-terminadas/casa2-principal.webp",   
+                fotos: [
+                    "assets/obras-terminadas/casa2-principal.webp",
+                    "assets/obras-terminadas/casa2-1.jpg",
+                    "assets/obras-terminadas/casa2-2.jpg",
+                    "assets/obras-terminadas/casa2-3.jpg",
+                    "assets/obras-terminadas/casa2-4.jpg",
+                    "assets/obras-terminadas/casa2-5.jpg",
+                    "assets/obras-terminadas/casa2-6.jpg",
+                    "assets/obras-terminadas/casa2-7.jpg",
+                ]
+            },
+            {
+                id: "contenedor-1",
+                titulo: "Contenedor y Camara de frio para Otonello en centro comercial",
+                descripcion: "Construcción de contenedor para uso comercial",   
+                imagenPrincipal: "assets/obras-terminadas/contenedor1-principal.webp",
+                fotos: [
+                    "assets/obras-terminadas/contenedor1-principal.webp",
+                    "assets/obras-terminadas/contenedor1-1.jpg",
+                    "assets/obras-terminadas/contenedor1-2.jpg",
+                    "assets/obras-terminadas/contenedor1-3.jpg",
+                    "assets/obras-terminadas/contenedor1-4.jpg",
+                    "assets/obras-terminadas/contenedor1-5.jpg",
+                    "assets/obras-terminadas/contenedor1-6.jpg",
+                    "assets/obras-terminadas/contenedor1-7.jpg",
+                    "assets/obras-terminadas/contenedor1-8.jpg",
+                    
+
+                ]
+            },
+            {
+                id: "bano-1",
+                titulo: "Baño remodelado en apartamento",
+                descripcion: "Remodelación completa de baño",
+                imagenPrincipal: "assets/obras-terminadas/bano1-principal.webp",
+                fotos: [
+                    "assets/obras-terminadas/bano1-principal.webp",
+                    "assets/obras-terminadas/bano1-1.jpg",
+                    "assets/obras-terminadas/bano1-2.jpg",
+                    "assets/obras-terminadas/bano1-3.jpg",
+                ]
+            },
+              {
+                id: "bano-2",
+                titulo: "Baño para casa en Montevideo",
+                descripcion: "Construcción de baño completo",
+                imagenPrincipal: "assets/obras-terminadas/bano2-principal.webp",
+                fotos: [
+                    "assets/obras-terminadas/bano2-principal.webp",
+                    "assets/obras-terminadas/bano2-1.jpg",
+                    "assets/obras-terminadas/bano2-2.jpg",
+                    "assets/obras-terminadas/bano2-3.jpg",
+                    "assets/obras-terminadas/bano2-4.jpg",
+                ]
+            },
+            {
+                id:"porche-1",
+                titulo: "Porche de entrada en casa",
+                descripcion: "Construcción de porche de entrada con estructura metálica",
+                imagenPrincipal: "assets/obras-terminadas/porche1-principal.webp",
+                fotos: [
+                    "assets/obras-terminadas/porche1-principal.webp",
+                    "assets/obras-terminadas/porche1-1.jpg",
+                    "assets/obras-terminadas/porche1-2.jpg",
+                    "assets/obras-terminadas/porche1-3.jpg",
+                   
+                   
+                ]
+            },
+            {
+                id: "galpon-1", 
+                titulo: "Galpon para almacenamiento",
+                descripcion: "Construcción de galpón para uso doméstico",
+                imagenPrincipal: "assets/obras-terminadas/galpon1-principal.webp",  
+                fotos: [
+                    "assets/obras-terminadas/galpon1-principal.webp",
+                    "assets/obras-terminadas/galpon1-1.jpg",
+                    "assets/obras-terminadas/galpon1-2.jpg",
+                    "assets/obras-terminadas/galpon1-3.jpg",
+                    "assets/obras-terminadas/galpon1-4.jpg",
+                    "assets/obras-terminadas/galpon1-5.jpg",
+                    "assets/obras-terminadas/galpon1-6.jpg",
+                    "assets/obras-terminadas/galpon1-7.jpg",
+                    "assets/obras-terminadas/galpon1-8.jpg",
                 ]
             }
         ]
@@ -51,32 +145,96 @@ const proyectos = [
         id: "obras-proceso",
         titulo: "Obras en Proceso",
         descripcion: "Realización de nuestros proyectos y construcciones",
-        imagen: "assets/proceso.jpg",
+        imagen: "assets/proceso.webp",
         obras: [
             {
                 id: "casa-1",
-                titulo: "Reforma de Local Comercial",
-                descripcion: "Remodelación completa de local en Montevideo",
-                imagenPrincipal: "assets/obras-en-proceso/casa1-principal.jpg",
+                titulo: "Reforma de cocina en casa particular",
+                descripcion: "Remodelación completa de cocina",
+                imagenPrincipal: "assets/obras-en-proceso/cocina1-principal.webp",
                 fotos: [
-                    "assets/obras-en-proceso/casa1-principal.jpg",
-                    "assets/obras-en-proceso/casa1-1.jpg",
-                    "assets/obras-en-proceso/casa1-2.jpg"
+                    "assets/obras-en-proceso/cocina1-principal.webp",
+                    "assets/obras-en-proceso/cocina1-1.jpg",
+                    "assets/obras-en-proceso/cocina1-2.jpg",
+                    "assets/obras-en-proceso/cocina1-3.jpg",
+                    "assets/obras-en-proceso/cocina1-4.jpg",
+                    "assets/obras-en-proceso/cocina1-5.jpg",
+                    "assets/obras-en-proceso/cocina1-6.jpg",
+                    "assets/obras-en-proceso/cocina1-7.jpg",
+                    "assets/obras-en-proceso/cocina1-8.jpg",
+                    "assets/obras-en-proceso/cocina1-9.jpg",
+                    "assets/obras-en-proceso/cocina1-10.jpg",
+                    "assets/obras-en-proceso/cocina1-11.jpg",
+                    "assets/obras-en-proceso/cocina1-12.jpg",
                 ]
-            }
+            },
+            {
+                id: "contenedor-1",
+                titulo: "Contenedor para Otonello en centro comercial",
+                descripcion: "Construcción de contenedor para uso comercial",
+                imagenPrincipal: "assets/obras-en-proceso/contenedor1-principal.webp",
+                fotos: [
+                    "assets/obras-en-proceso/contenedor1-principal.webp",
+                    "assets/obras-en-proceso/contenedor1-1.jpg",
+                    "assets/obras-en-proceso/contenedor1-2.jpg",
+                    "assets/obras-en-proceso/contenedor1-3.jpg",
+                    "assets/obras-en-proceso/contenedor1-4.jpg",
+                    "assets/obras-en-proceso/contenedor1-5.jpg",
+                    "assets/obras-en-proceso/contenedor1-6.jpg",
+                    "assets/obras-en-proceso/contenedor1-7.jpg",
+                  
+                ]
+            },
+            {
+                
+                id:"casa-2",
+                titulo: "Remodelación de casa en Montevideo",
+                descripcion: "Remodelación completa de casa con ampliación",
+                imagenPrincipal: "assets/obras-en-proceso/casa2-principal.webp",   
+                fotos: [
+                    "assets/obras-en-proceso/casa2-principal.webp",
+                    "assets/obras-en-proceso/casa2-1.jpg",
+                    "assets/obras-en-proceso/casa2-2.jpg",
+                    "assets/obras-en-proceso/casa2-3.jpg",
+                    "assets/obras-en-proceso/casa2-4.jpg",
+                    "assets/obras-en-proceso/casa2-5.jpg",
+                    "assets/obras-en-proceso/casa2-6.jpg",
+                    "assets/obras-en-proceso/casa2-7.jpg",
+                    "assets/obras-en-proceso/casa2-8.jpg",
+                    "assets/obras-en-proceso/casa2-9.jpg",
+                    "assets/obras-en-proceso/casa2-10.jpg",
+                ]
+            },
+            {
+                id:"vereda-1",
+                titulo: "Construcción de vereda para casa",
+                descripcion: "Construcción de vereda de hormigón",
+                imagenPrincipal: "assets/obras-en-proceso/vereda1-principal.webp",
+                fotos: [
+                    "assets/obras-en-proceso/vereda1-principal.webp",
+                    "assets/obras-en-proceso/vereda1-1.jpg",
+                    "assets/obras-en-proceso/vereda1-2.jpg",
+                    "assets/obras-en-proceso/vereda1-3.jpg",
+                    "assets/obras-en-proceso/vereda1-4.jpg",
+                    "assets/obras-en-proceso/vereda1-5.jpg",
+                    "assets/obras-en-proceso/vereda1-6.jpg",
+                ]
+            },
+
         ]
     },
     {
         id:"herreria",
         titulo: "Herrería",
         descripcion: "Trabajos de herrería y estructuras metálicas",
-        imagen: "assets/herreria.jpg",
+        imagen: "assets/herreria.webp",
         obras:[{
             id:"estructura-1",
             titulo: "Estructura Metálica para RioGas",
-            imagenPrincipal: "assets/herreria/estructura1-principal.jpg",
+            descripcion: "Construcción de estructura metálica para la empresa RioGas",
+            imagenPrincipal: "assets/herreria/estructura1-principal.webp",
             fotos:[
-                "assets/herreria/estructura1-principal.jpg",
+                "assets/herreria/estructura1-principal.webp",
                 "assets/herreria/estructura1-1.jpg",
                 "assets/herreria/estructura1-2.jpg",
                 "assets/herreria/estructura1-3.jpg",
@@ -87,28 +245,46 @@ const proyectos = [
         {
             id:"estructura-2",
             titulo: "Escalera Metálica para Casa",
-            imagenPrincipal: "assets/herreria/estructura2-principal.jpg",
+            descripcion: "Construcción de escalera metálica ",
+            imagenPrincipal: "assets/herreria/estructura2-principal.webp",
             fotos:[
-                "assets/herreria/estructura2-principal.jpg",
+                "assets/herreria/estructura2-principal.webp",
                 "assets/herreria/estructura2-1.jpg",
                 "assets/herreria/estructura2-2.jpg",
                 "assets/herreria/estructura2-3.jpg",
             ]
-        }]    
+        },
+        {
+            id:"estructura-3",
+            titulo: "Rejas de Seguridad para casa",
+            descripcion: "Instalación de rejas de seguridad",
+            imagenPrincipal: "assets/herreria/estructura3-principal.webp",
+            fotos:[
+                "assets/herreria/estructura3-principal.webp",
+                "assets/herreria/estructura3-1.jpg",
+                "assets/herreria/estructura3-2.jpg",
+                "assets/herreria/estructura3-3.jpg",
+                "assets/herreria/estructura3-4.jpg",
+
+            ]
+        }
+        
+    ]   
+
     },
     {
         id:"piscina-deck",
         titulo: "Piscinas y Decks",
         descripcion: "Construcción de piscinas y decks de madera",
-        imagen: "assets/piscina-deck.jpg",
+        imagen: "assets/piscina-deck.webp",
         obras: [
             {
                 id: "piscina-1",
                 titulo: "Piscina de Hormigón y Deck de Madera",
                 descripcion: "Construcción de piscina de hormigón con deck de madera",
-                imagenPrincipal: "assets/piscina-deck/piscina1-principal.jpg",
+                imagenPrincipal: "assets/piscina-deck/piscina1-principal.webp",
                 fotos: [
-                    "assets/piscina-deck/piscina1-principal.jpg",
+                    "assets/piscina-deck/piscina1-principal.webp",
                     "assets/piscina-deck/piscina1-1.jpg",
                     "assets/piscina-deck/piscina1-1.jpg"
                 ]
@@ -119,21 +295,95 @@ const proyectos = [
         id:"imp",
         titulo:"Impermeabilizaciones y pintura",
         descripcion:"Trabajos de impermeabilización y pintura en general",
-        imagen:"assets/imp.jpg",
+        imagen:"assets/imp.webp",
         obras:[
             {
                 id:"impermeabilizacion-1",
                 titulo:"Impermeabilización de Techo",
                 descripcion:"Impermeabilización de techo de hormigón",
-                imagenPrincipal:"assets/impermeabilizacion/impermeabilizacion1-principal.jpg",
+                imagenPrincipal:"assets/imper/impermeabilizacion1-principal.webp",
                 fotos:[
-                    "assets/impermeabilizacion/impermeabilizacion1-principal.jpg",
-                    "assets/impermeabilizacion/impermeabilizacion1-1.jpg",
-                    "assets/impermeabilizacion/impermeabilizacion1-2.jpg"
+                    "assets/imper/impermeabilizacion1-principal.webp",
+                    "assets/imper/impermeabilizacion1-1.jpg",
+                    "assets/imper/impermeabilizacion1-2.jpg",
+                    "assets/imper/impermeabilizacion1-3.jpg",
+                    "assets/imper/impermeabilizacion1-4.jpg",
+                    "assets/imper/impermeabilizacion1-5.jpg",
+                ]
+            },
+            {
+                id:"impermeabilizacion-2",
+                titulo:"Impermeabilización de Piso",
+                descripcion:"Impermeabilización de piso de madera",
+                imagenPrincipal:"assets/imper/impermeabilizacion2-principal.webp", 
+                fotos:[
+                    "assets/imper/impermeabilizacion2-principal.webp",
+                    "assets/imper/impermeabilizacion2-1.jpg",
+                    "assets/imper/impermeabilizacion2-2.jpg",
+                    "assets/imper/impermeabilizacion2-3.jpg",
+                    "assets/imper/impermeabilizacion2-4.jpg",
+                ]
+            },
+            {
+                id:"techo-1",
+                titulo:"Impermeabilizacion y pintura de Techo",
+                descripcion:"Impermeabilización y pintura de techo de hormigón",
+                imagenPrincipal:"assets/imper/techo1-principal.webp",
+                fotos:[
+                    "assets/imper/techo1-principal.webp",
+                    "assets/imper/techo1-1.jpg",
+                    "assets/imper/techo1-2.jpg",
+                    "assets/imper/techo1-3.jpg",
+                    "assets/imper/techo1-4.jpg",
                 ]
             }
         ]
-    }  
+    } ,
+    {
+        id: "otros-proyectos",
+        titulo: "Otros Proyectos",
+        descripcion: "Proyectos diversos y trabajos especiales",
+        imagen: "assets/otros-proyectos.webp",
+        obras: [
+            {
+                id: "proyecto-1",   
+                titulo: "Bomba de Agua para Montevideo",
+                descripcion: "Instalación de bomba de agua para abastecimiento en Montevideo",
+                imagenPrincipal: "assets/otros-proyectos/proyecto1-principal.webp",
+                fotos: [ 
+                        "assets/otros-proyectos/proyecto1-principal.webp",
+                        "assets/otros-proyectos/proyecto1-1.jpg",
+                        "assets/otros-proyectos/proyecto1-2.jpg",
+                ]
+            },
+            {
+                id: "proyecto-2",
+                titulo:"Instalacion de grasera",
+                descripcion: "Instalación de grasera en casa particular",
+                imagenPrincipal: "assets/otros-proyectos/proyecto2-principal.webp",
+                fotos: [
+                    "assets/otros-proyectos/proyecto2-principal.webp",
+                    "assets/otros-proyectos/proyecto2-1.jpg",
+                    "assets/otros-proyectos/proyecto2-2.jpg",
+                    "assets/otros-proyectos/proyecto2-3.jpg",
+                    "assets/otros-proyectos/proyecto2-4.jpg",
+                ]
+
+            },
+                        {
+                id:"puerta-1",
+                titulo: "Instalación de puerta de corrediza",
+                descripcion: "Instalación de puerta corrediza de madera",  
+                imagenPrincipal: "assets/otros-proyectos/puerta1-principal.webp",
+                fotos: [
+                    "assets/otros-proyectos/puerta1-principal.webp",
+                    "assets/otros-proyectos/puerta1-1.jpg",
+                    "assets/otros-proyectos/puerta1-2.jpg",
+                    "assets/otros-proyectos/puerta1-3.jpg",
+                ]
+            }
+        ]
+    },
     // ... otras categorías/proyectos
 ];
 
