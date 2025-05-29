@@ -294,7 +294,7 @@ const proyectos = [
         id:"imp",
         titulo:"Impermeabilizaciones y pintura",
         descripcion:"Trabajos de impermeabilización y pintura en general",
-        imagen:"assets/imp.webp",
+        imagen:"assets/imper.webp",
         obras:[
             {
                 id:"impermeabilizacion-1",
