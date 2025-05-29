@@ -26,13 +26,13 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-terminadas/casa1-principal.webp",
                 fotos: [
                     "assets/obras-terminadas/casa1-principal.webp",
-                    "assets/obras-terminadas/casa1-1.jpg",
-                    "assets/obras-terminadas/casa1-2.jpg",
-                    "assets/obras-terminadas/casa1-3.jpg", 
-                    "assets/obras-terminadas/casa1-5.jpg",
-                    "assets/obras-terminadas/casa1-6.jpg",
-                    "assets/obras-terminadas/casa1-7.jpg",
-                    "assets/obras-terminadas/casa1-8.jpg",
+                    "assets/obras-terminadas/casa1-1.webp",
+                    "assets/obras-terminadas/casa1-2.webp",
+                    "assets/obras-terminadas/casa1-3.webp", 
+                    "assets/obras-terminadas/casa1-5.webp",
+                    "assets/obras-terminadas/casa1-6.webp",
+                    "assets/obras-terminadas/casa1-7.webp",
+                    "assets/obras-terminadas/casa1-8.webp",
                 ]
             },
             {
@@ -42,9 +42,9 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-terminadas/cocina1-principal.webp",
                 fotos: [
                     "assets/obras-terminadas/cocina1-principal.webp",
-                    "assets/obras-terminadas/cocina1-1.jpg",
-                    "assets/obras-terminadas/cocina1-2.jpg",
-                    "assets/obras-terminadas/cocina1-3.jpg",
+                    "assets/obras-terminadas/cocina1-1.webp",
+                    "assets/obras-terminadas/cocina1-2.webp",
+                    "assets/obras-terminadas/cocina1-3.webp",
                 ]
             },
             {
@@ -54,13 +54,13 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-terminadas/casa2-principal.webp",   
                 fotos: [
                     "assets/obras-terminadas/casa2-principal.webp",
-                    "assets/obras-terminadas/casa2-1.jpg",
-                    "assets/obras-terminadas/casa2-2.jpg",
-                    "assets/obras-terminadas/casa2-3.jpg",
-                    "assets/obras-terminadas/casa2-4.jpg",
-                    "assets/obras-terminadas/casa2-5.jpg",
-                    "assets/obras-terminadas/casa2-6.jpg",
-                    "assets/obras-terminadas/casa2-7.jpg",
+                    "assets/obras-terminadas/casa2-1.webp",
+                    "assets/obras-terminadas/casa2-2.webp",
+                    "assets/obras-terminadas/casa2-3.webp",
+                    "assets/obras-terminadas/casa2-4.webp",
+                    "assets/obras-terminadas/casa2-5.webp",
+                    "assets/obras-terminadas/casa2-6.webp",
+                    "assets/obras-terminadas/casa2-7.webp",
                 ]
             },
             {
@@ -70,14 +70,14 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-terminadas/contenedor1-principal.webp",
                 fotos: [
                     "assets/obras-terminadas/contenedor1-principal.webp",
-                    "assets/obras-terminadas/contenedor1-1.jpg",
-                    "assets/obras-terminadas/contenedor1-2.jpg",
-                    "assets/obras-terminadas/contenedor1-3.jpg",
-                    "assets/obras-terminadas/contenedor1-4.jpg",
-                    "assets/obras-terminadas/contenedor1-5.jpg",
-                    "assets/obras-terminadas/contenedor1-6.jpg",
-                    "assets/obras-terminadas/contenedor1-7.jpg",
-                    "assets/obras-terminadas/contenedor1-8.jpg",
+                    "assets/obras-terminadas/contenedor1-1.webp",
+                    "assets/obras-terminadas/contenedor1-2.webp",
+                    "assets/obras-terminadas/contenedor1-3.webp",
+                    "assets/obras-terminadas/contenedor1-4.webp",
+                    "assets/obras-terminadas/contenedor1-5.webp",
+                    "assets/obras-terminadas/contenedor1-6.webp",
+                    "assets/obras-terminadas/contenedor1-7.webp",
+                    "assets/obras-terminadas/contenedor1-8.webp",
                     
 
                 ]
@@ -89,9 +89,9 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-terminadas/bano1-principal.webp",
                 fotos: [
                     "assets/obras-terminadas/bano1-principal.webp",
-                    "assets/obras-terminadas/bano1-1.jpg",
-                    "assets/obras-terminadas/bano1-2.jpg",
-                    "assets/obras-terminadas/bano1-3.jpg",
+                    "assets/obras-terminadas/bano1-1.webp",
+                    "assets/obras-terminadas/bano1-2.webp",
+                    "assets/obras-terminadas/bano1-3.webp",
                 ]
             },
               {
@@ -101,10 +101,10 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-terminadas/bano2-principal.webp",
                 fotos: [
                     "assets/obras-terminadas/bano2-principal.webp",
-                    "assets/obras-terminadas/bano2-1.jpg",
-                    "assets/obras-terminadas/bano2-2.jpg",
-                    "assets/obras-terminadas/bano2-3.jpg",
-                    "assets/obras-terminadas/bano2-4.jpg",
+                    "assets/obras-terminadas/bano2-1.webp",
+                    "assets/obras-terminadas/bano2-2.webp",
+                    "assets/obras-terminadas/bano2-3.webp",
+                    "assets/obras-terminadas/bano2-4.webp",
                 ]
             },
             {
@@ -114,9 +114,9 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-terminadas/porche1-principal.webp",
                 fotos: [
                     "assets/obras-terminadas/porche1-principal.webp",
-                    "assets/obras-terminadas/porche1-1.jpg",
-                    "assets/obras-terminadas/porche1-2.jpg",
-                    "assets/obras-terminadas/porche1-3.jpg",
+                    "assets/obras-terminadas/porche1-1.webp",
+                    "assets/obras-terminadas/porche1-2.webp",
+                    "assets/obras-terminadas/porche1-3.webp",
                    
                    
                 ]
@@ -128,14 +128,14 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-terminadas/galpon1-principal.webp",  
                 fotos: [
                     "assets/obras-terminadas/galpon1-principal.webp",
-                    "assets/obras-terminadas/galpon1-1.jpg",
-                    "assets/obras-terminadas/galpon1-2.jpg",
-                    "assets/obras-terminadas/galpon1-3.jpg",
-                    "assets/obras-terminadas/galpon1-4.jpg",
-                    "assets/obras-terminadas/galpon1-5.jpg",
-                    "assets/obras-terminadas/galpon1-6.jpg",
-                    "assets/obras-terminadas/galpon1-7.jpg",
-                    "assets/obras-terminadas/galpon1-8.jpg",
+                    "assets/obras-terminadas/galpon1-1.webp",
+                    "assets/obras-terminadas/galpon1-2.webp",
+                    "assets/obras-terminadas/galpon1-3.webp",
+                    "assets/obras-terminadas/galpon1-4.webp",
+                    "assets/obras-terminadas/galpon1-5.webp",
+                    "assets/obras-terminadas/galpon1-6.webp",
+                    "assets/obras-terminadas/galpon1-7.webp",
+                    "assets/obras-terminadas/galpon1-8.webp",
                 ]
             }
         ]
@@ -153,18 +153,18 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-en-proceso/cocina1-principal.webp",
                 fotos: [
                     "assets/obras-en-proceso/cocina1-principal.webp",
-                    "assets/obras-en-proceso/cocina1-1.jpg",
-                    "assets/obras-en-proceso/cocina1-2.jpg",
-                    "assets/obras-en-proceso/cocina1-3.jpg",
-                    "assets/obras-en-proceso/cocina1-4.jpg",
-                    "assets/obras-en-proceso/cocina1-5.jpg",
-                    "assets/obras-en-proceso/cocina1-6.jpg",
-                    "assets/obras-en-proceso/cocina1-7.jpg",
-                    "assets/obras-en-proceso/cocina1-8.jpg",
-                    "assets/obras-en-proceso/cocina1-9.jpg",
-                    "assets/obras-en-proceso/cocina1-10.jpg",
-                    "assets/obras-en-proceso/cocina1-11.jpg",
-                    "assets/obras-en-proceso/cocina1-12.jpg",
+                    "assets/obras-en-proceso/cocina1-1.webp",
+                    "assets/obras-en-proceso/cocina1-2.webp",
+                    "assets/obras-en-proceso/cocina1-3.webp",
+                    "assets/obras-en-proceso/cocina1-4.webp",
+                    "assets/obras-en-proceso/cocina1-5.webp",
+                    "assets/obras-en-proceso/cocina1-6.webp",
+                    "assets/obras-en-proceso/cocina1-7.webp",
+                    "assets/obras-en-proceso/cocina1-8.webp",
+                    "assets/obras-en-proceso/cocina1-9.webp",
+                    "assets/obras-en-proceso/cocina1-10.webp",
+                    "assets/obras-en-proceso/cocina1-11.webp",
+                    "assets/obras-en-proceso/cocina1-12.webp",
                 ]
             },
             {
@@ -174,13 +174,13 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-en-proceso/contenedor1-principal.webp",
                 fotos: [
                     "assets/obras-en-proceso/contenedor1-principal.webp",
-                    "assets/obras-en-proceso/contenedor1-1.jpg",
-                    "assets/obras-en-proceso/contenedor1-2.jpg",
-                    "assets/obras-en-proceso/contenedor1-3.jpg",
-                    "assets/obras-en-proceso/contenedor1-4.jpg",
-                    "assets/obras-en-proceso/contenedor1-5.jpg",
-                    "assets/obras-en-proceso/contenedor1-6.jpg",
-                    "assets/obras-en-proceso/contenedor1-7.jpg",
+                    "assets/obras-en-proceso/contenedor1-1.webp",
+                    "assets/obras-en-proceso/contenedor1-2.webp",
+                    "assets/obras-en-proceso/contenedor1-3.webp",
+                    "assets/obras-en-proceso/contenedor1-4.webp",
+                    "assets/obras-en-proceso/contenedor1-5.webp",
+                    "assets/obras-en-proceso/contenedor1-6.webp",
+                    "assets/obras-en-proceso/contenedor1-7.webp",
                   
                 ]
             },
@@ -192,16 +192,16 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-en-proceso/casa2-principal.webp",   
                 fotos: [
                     "assets/obras-en-proceso/casa2-principal.webp",
-                    "assets/obras-en-proceso/casa2-1.jpg",
-                    "assets/obras-en-proceso/casa2-2.jpg",
-                    "assets/obras-en-proceso/casa2-3.jpg",
-                    "assets/obras-en-proceso/casa2-4.jpg",
-                    "assets/obras-en-proceso/casa2-5.jpg",
-                    "assets/obras-en-proceso/casa2-6.jpg",
-                    "assets/obras-en-proceso/casa2-7.jpg",
-                    "assets/obras-en-proceso/casa2-8.jpg",
-                    "assets/obras-en-proceso/casa2-9.jpg",
-                    "assets/obras-en-proceso/casa2-10.jpg",
+                    "assets/obras-en-proceso/casa2-1.webp",
+                    "assets/obras-en-proceso/casa2-2.webp",
+                    "assets/obras-en-proceso/casa2-3.webp",
+                    "assets/obras-en-proceso/casa2-4.webp",
+                    "assets/obras-en-proceso/casa2-5.webp",
+                    "assets/obras-en-proceso/casa2-6.webp",
+                    "assets/obras-en-proceso/casa2-7.webp",
+                    "assets/obras-en-proceso/casa2-8.webp",
+                    "assets/obras-en-proceso/casa2-9.webp",
+                    "assets/obras-en-proceso/casa2-10.webp",
                 ]
             },
             {
@@ -211,12 +211,12 @@ const proyectos = [
                 imagenPrincipal: "assets/obras-en-proceso/vereda1-principal.webp",
                 fotos: [
                     "assets/obras-en-proceso/vereda1-principal.webp",
-                    "assets/obras-en-proceso/vereda1-1.jpg",
-                    "assets/obras-en-proceso/vereda1-2.jpg",
-                    "assets/obras-en-proceso/vereda1-3.jpg",
-                    "assets/obras-en-proceso/vereda1-4.jpg",
-                    "assets/obras-en-proceso/vereda1-5.jpg",
-                    "assets/obras-en-proceso/vereda1-6.jpg",
+                    "assets/obras-en-proceso/vereda1-1.webp",
+                    "assets/obras-en-proceso/vereda1-2.webp",
+                    "assets/obras-en-proceso/vereda1-3.webp",
+                    "assets/obras-en-proceso/vereda1-4.webp",
+                    "assets/obras-en-proceso/vereda1-5.webp",
+                    "assets/obras-en-proceso/vereda1-6.webp",
                 ]
             },
 
@@ -234,11 +234,11 @@ const proyectos = [
             imagenPrincipal: "assets/herreria/estructura1-principal.webp",
             fotos:[
                 "assets/herreria/estructura1-principal.webp",
-                "assets/herreria/estructura1-1.jpg",
-                "assets/herreria/estructura1-2.jpg",
-                "assets/herreria/estructura1-3.jpg",
-                "assets/herreria/estructura1-4.jpg",
-                "assets/herreria/estructura1-5.jpg",
+                "assets/herreria/estructura1-1.webp",
+                "assets/herreria/estructura1-2.webp",
+                "assets/herreria/estructura1-3.webp",
+                "assets/herreria/estructura1-4.webp",
+                "assets/herreria/estructura1-5.webp",
             ] 
         },
         {
@@ -248,9 +248,9 @@ const proyectos = [
             imagenPrincipal: "assets/herreria/estructura2-principal.webp",
             fotos:[
                 "assets/herreria/estructura2-principal.webp",
-                "assets/herreria/estructura2-1.jpg",
-                "assets/herreria/estructura2-2.jpg",
-                "assets/herreria/estructura2-3.jpg",
+                "assets/herreria/estructura2-1.webp",
+                "assets/herreria/estructura2-2.webp",
+                "assets/herreria/estructura2-3.webp",
             ]
         },
         {
@@ -260,10 +260,10 @@ const proyectos = [
             imagenPrincipal: "assets/herreria/estructura3-principal.webp",
             fotos:[
                 "assets/herreria/estructura3-principal.webp",
-                "assets/herreria/estructura3-1.jpg",
-                "assets/herreria/estructura3-2.jpg",
-                "assets/herreria/estructura3-3.jpg",
-                "assets/herreria/estructura3-4.jpg",
+                "assets/herreria/estructura3-1.webp",
+                "assets/herreria/estructura3-2.webp",
+                "assets/herreria/estructura3-3.webp",
+                "assets/herreria/estructura3-4.webp",
 
             ]
         }
@@ -284,8 +284,8 @@ const proyectos = [
                 imagenPrincipal: "assets/piscina-deck/piscina1-principal.webp",
                 fotos: [
                     "assets/piscina-deck/piscina1-principal.webp",
-                    "assets/piscina-deck/piscina1-1.jpg",
-                    "assets/piscina-deck/piscina1-1.jpg"
+                    "assets/piscina-deck/piscina1-1.webp",
+                    "assets/piscina-deck/piscina1-1.webp"
                 ]
             },
         ]
@@ -303,11 +303,11 @@ const proyectos = [
                 imagenPrincipal:"assets/imper/impermeabilizacion1-principal.webp",
                 fotos:[
                     "assets/imper/impermeabilizacion1-principal.webp",
-                    "assets/imper/impermeabilizacion1-1.jpg",
-                    "assets/imper/impermeabilizacion1-2.jpg",
-                    "assets/imper/impermeabilizacion1-3.jpg",
-                    "assets/imper/impermeabilizacion1-4.jpg",
-                    "assets/imper/impermeabilizacion1-5.jpg",
+                    "assets/imper/impermeabilizacion1-1.webp",
+                    "assets/imper/impermeabilizacion1-2.webp",
+                    "assets/imper/impermeabilizacion1-3.webp",
+                    "assets/imper/impermeabilizacion1-4.webp",
+                    "assets/imper/impermeabilizacion1-5.webp",
                 ]
             },
             {
@@ -317,10 +317,10 @@ const proyectos = [
                 imagenPrincipal:"assets/imper/impermeabilizacion2-principal.webp", 
                 fotos:[
                     "assets/imper/impermeabilizacion2-principal.webp",
-                    "assets/imper/impermeabilizacion2-1.jpg",
-                    "assets/imper/impermeabilizacion2-2.jpg",
-                    "assets/imper/impermeabilizacion2-3.jpg",
-                    "assets/imper/impermeabilizacion2-4.jpg",
+                    "assets/imper/impermeabilizacion2-1.webp",
+                    "assets/imper/impermeabilizacion2-2.webp",
+                    "assets/imper/impermeabilizacion2-3.webp",
+                    "assets/imper/impermeabilizacion2-4.webp",
                 ]
             },
             {
@@ -330,10 +330,10 @@ const proyectos = [
                 imagenPrincipal:"assets/imper/techo1-principal.webp",
                 fotos:[
                     "assets/imper/techo1-principal.webp",
-                    "assets/imper/techo1-1.jpg",
-                    "assets/imper/techo1-2.jpg",
-                    "assets/imper/techo1-3.jpg",
-                    "assets/imper/techo1-4.jpg",
+                    "assets/imper/techo1-1.webp",
+                    "assets/imper/techo1-2.webp",
+                    "assets/imper/techo1-3.webp",
+                    "assets/imper/techo1-4.webp",
                 ]
             }
         ]
@@ -351,8 +351,8 @@ const proyectos = [
                 imagenPrincipal: "assets/otros-proyectos/proyecto1-principal.webp",
                 fotos: [ 
                         "assets/otros-proyectos/proyecto1-principal.webp",
-                        "assets/otros-proyectos/proyecto1-1.jpg",
-                        "assets/otros-proyectos/proyecto1-2.jpg",
+                        "assets/otros-proyectos/proyecto1-1.webp",
+                        "assets/otros-proyectos/proyecto1-2.webp",
                 ]
             },
             {
@@ -362,10 +362,10 @@ const proyectos = [
                 imagenPrincipal: "assets/otros-proyectos/proyecto2-principal.webp",
                 fotos: [
                     "assets/otros-proyectos/proyecto2-principal.webp",
-                    "assets/otros-proyectos/proyecto2-1.jpg",
-                    "assets/otros-proyectos/proyecto2-2.jpg",
-                    "assets/otros-proyectos/proyecto2-3.jpg",
-                    "assets/otros-proyectos/proyecto2-4.jpg",
+                    "assets/otros-proyectos/proyecto2-1.webp",
+                    "assets/otros-proyectos/proyecto2-2.webp",
+                    "assets/otros-proyectos/proyecto2-3.webp",
+                    "assets/otros-proyectos/proyecto2-4.webp",
                 ]
 
             },
@@ -376,9 +376,9 @@ const proyectos = [
                 imagenPrincipal: "assets/otros-proyectos/puerta1-principal.webp",
                 fotos: [
                     "assets/otros-proyectos/puerta1-principal.webp",
-                    "assets/otros-proyectos/puerta1-1.jpg",
-                    "assets/otros-proyectos/puerta1-2.jpg",
-                    "assets/otros-proyectos/puerta1-3.jpg",
+                    "assets/otros-proyectos/puerta1-1.webp",
+                    "assets/otros-proyectos/puerta1-2.webp",
+                    "assets/otros-proyectos/puerta1-3.webp",
                 ]
             }
         ]
