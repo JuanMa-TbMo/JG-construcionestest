@@ -629,7 +629,10 @@ function cargarProyectos() {
                 <p>${proyecto.descripcion}</p>
             </div>
         `;
-        card.addEventListener('click', () => cargarObrasProyecto(index));
+        card.addEventListener('click', () => {
+            cargarObrasProyecto(index);
+            document.getElementById('proyectos').scrollIntoView({ behavior: 'smooth' });
+        });
         contenedor.appendChild(card);
     });
 }
@@ -660,11 +663,19 @@ function cargarObrasProyecto(proyectoIndex) {
                 <p>${obra.descripcion}</p>
             </div>
         `;
-        obraCard.addEventListener('click', () => cargarGaleriaObra(proyectoIndex, obraIndex));
+        obraCard.addEventListener('click', () => {
+            cargarGaleriaObra(proyectoIndex, obraIndex);
+            document.getElementById('proyectos').scrollIntoView({ behavior: 'smooth' });
+        });
         obrasContainer.appendChild(obraCard);
+        
     });
     
-    document.getElementById('volver-btn').addEventListener('click', cargarProyectos);
+      document.getElementById('volver-btn').addEventListener('click', () => {
+        cargarProyectos();
+        document.getElementById('proyectos').scrollIntoView({ behavior: 'smooth' });
+    });
+    document.getElementById('proyectos').scrollIntoView({ behavior: 'smooth' });
 }
 
 // Función para cargar la galería de una obra específica
