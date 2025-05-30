@@ -7,8 +7,17 @@ function toggleMenu() {
   document.getElementById('btn-cita').addEventListener('click', function() {
     window.open('https://web.whatsapp.com/send?phone=59899616991', '_blank');
 });
- document.getElementById('whatsapp-button').addEventListener('click', function() {
-    window.open('https://api.whatsapp.com/send?phone=59899616991', '_blank');
+ // Optimizar el event listener del botón de WhatsApp
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(cargarProyectos, 500);
+  
+  const whatsappBtn = document.getElementById('whatsapp-button');
+  if(whatsappBtn) {
+    whatsappBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.open('https://api.whatsapp.com/send?phone=59899616991', '_blank', 'noopener,noreferrer');
+    });
+  }
 });
 
 // proyectos
@@ -61,6 +70,55 @@ const proyectos = [
                     "assets/obras-terminadas/casa2-5.webp",
                     "assets/obras-terminadas/casa2-6.webp",
                     "assets/obras-terminadas/casa2-7.webp",
+                ]
+            },
+            {
+                id:"casa-3",
+                titulo: "Reforma general de casa en Punta del Este",
+                descripcion: "Reforma completa de casa con ampliación y remodelación",  
+                imagenPrincipal: "assets/obras-terminadas/casa3-principal.webp",
+                fotos: [
+                    "assets/obras-terminadas/casa3-principal.webp",
+                    "assets/obras-terminadas/casa3-1.webp",
+                    "assets/obras-terminadas/casa3-2.webp",
+                    "assets/obras-terminadas/casa3-3.webp",
+                    "assets/obras-terminadas/casa3-4.webp",
+                    "assets/obras-terminadas/casa3-5.webp",
+                    "assets/obras-terminadas/casa3-6.webp",
+                    "assets/obras-terminadas/casa3-7.webp",
+                    "assets/obras-terminadas/casa3-8.webp",
+                    "assets/obras-terminadas/casa3-9.webp",
+                    "assets/obras-terminadas/casa3-10.webp",
+                ]
+            },
+            {
+                id: "casa-4",
+                titulo: "Construcción de casa en Ciudad de la Costa",
+                descripcion: "Construcción completa de vivienda familiar",
+                imagenPrincipal: "assets/obras-terminadas/casa4-principal.webp",
+                fotos: [
+                    "assets/obras-terminadas/casa4-principal.webp",
+                    "assets/obras-terminadas/casa4-1.webp",
+                    "assets/obras-terminadas/casa4-2.webp",
+                    "assets/obras-terminadas/casa4-3.webp",
+                    "assets/obras-terminadas/casa4-4.webp",
+                    "assets/obras-terminadas/casa4-5.webp",
+                    "assets/obras-terminadas/casa4-6.webp",
+                    "assets/obras-terminadas/casa4-7.webp",
+                    "assets/obras-terminadas/casa4-8.webp",
+                ]
+            },
+            {
+                id: "barbacoa-1",
+                titulo: "Barbacoa y patio en casa",
+                descripcion: "Construcción de barbacoa y patio con piso de hormigón",
+                imagenPrincipal: "assets/obras-terminadas/barbacoa1-principal.webp",
+                fotos: [
+                    "assets/obras-terminadas/barbacoa1-principal.webp",
+                    "assets/obras-terminadas/barbacoa1-1.webp",
+                    "assets/obras-terminadas/barbacoa1-2.webp",
+                    "assets/obras-terminadas/barbacoa1-3.webp",
+                    
                 ]
             },
             {
@@ -122,6 +180,19 @@ const proyectos = [
                 ]
             },
             {
+                id: "bano-3",
+                titulo: "Baño remodelado en casa", 
+                descripcion: "Remodelación completa de baño en casa particular",
+                imagenPrincipal: "assets/obras-terminadas/bano3-principal.webp",
+                fotos: [
+                    "assets/obras-terminadas/bano3-principal.webp",
+                    "assets/obras-terminadas/bano3-1.webp",
+                    "assets/obras-terminadas/bano3-2.webp",
+                    "assets/obras-terminadas/bano3-3.webp",
+                    "assets/obras-terminadas/bano3-4.webp",
+                ]
+            },
+            {
                 id: "galpon-1", 
                 titulo: "Galpon para almacenamiento",
                 descripcion: "Construcción de galpón para uso doméstico",
@@ -137,6 +208,18 @@ const proyectos = [
                     "assets/obras-terminadas/galpon1-7.webp",
                     "assets/obras-terminadas/galpon1-8.webp",
                 ]
+            },
+            {
+                id:"porche-2",
+                titulo: "Porche de entrada en casa",    
+                descripcion: "Construcción de porche de entrada con estructura de madera",
+                imagenPrincipal: "assets/obras-terminadas/porche2-principal.webp",  
+                fotos: [
+                    "assets/obras-terminadas/porche2-principal.webp",
+                    "assets/obras-terminadas/porche2-1.webp",
+                    "assets/obras-terminadas/porche2-2.webp",
+                ]
+
             }
         ]
     },
@@ -205,6 +288,22 @@ const proyectos = [
                 ]
             },
             {
+                id: "casa-4",
+                titulo: "construcción de casa en Ciudad de la Costa",
+                descripcion: "Construcción completa de vivienda familiar",
+                imagenPrincipal: "assets/obras-en-proceso/casa4-principal.webp",
+                fotos: [
+                    "assets/obras-en-proceso/casa4-principal.webp",
+                    "assets/obras-en-proceso/casa4-1.webp",
+                    "assets/obras-en-proceso/casa4-2.webp",
+                    "assets/obras-en-proceso/casa4-3.webp",
+                    "assets/obras-en-proceso/casa4-4.webp",
+                    "assets/obras-en-proceso/casa4-5.webp",
+                    "assets/obras-en-proceso/casa4-6.webp",
+                  
+                ]
+            },
+            {
                 id:"vereda-1",
                 titulo: "Construcción de vereda para casa",
                 descripcion: "Construcción de vereda de hormigón",
@@ -219,6 +318,49 @@ const proyectos = [
                     "assets/obras-en-proceso/vereda1-6.webp",
                 ]
             },
+            {
+                id:"casa-3",
+                titulo: "Reforma de casa en Punta del Este",
+                descripcion: "Remodelación completa de casa con ampliación y remodelación",
+                imagenPrincipal: "assets/obras-en-proceso/casa3-principal.webp",
+                fotos: [
+                    "assets/obras-en-proceso/casa3-principal.webp",
+                    "assets/obras-en-proceso/casa3-1.webp",
+                    "assets/obras-en-proceso/casa3-2.webp",
+                    "assets/obras-en-proceso/casa3-3.webp",
+                    "assets/obras-en-proceso/casa3-4.webp",
+                    "assets/obras-en-proceso/casa3-5.webp",
+                    "assets/obras-en-proceso/casa3-6.webp",
+                    "assets/obras-en-proceso/casa3-7.webp",
+                    "assets/obras-en-proceso/casa3-8.webp",
+                    "assets/obras-en-proceso/casa3-9.webp",
+                ]
+            },
+            {
+                id:"barbacoa-1",
+                titulo: "Construcción de piso y barbacoa en casa",
+                descripcion: "Construcción de piso de hormigon y barbacoa para casa ",
+                imagenPrincipal: "assets/obras-en-proceso/barbacoa1-principal.webp",
+                fotos: [
+                    "assets/obras-en-proceso/barbacoa1-principal.webp",
+                    "assets/obras-en-proceso/barbacoa1-1.webp",
+                    "assets/obras-en-proceso/barbacoa1-2.webp",
+                    "assets/obras-en-proceso/barbacoa1-3.webp",
+                    "assets/obras-en-proceso/barbacoa1-6.webp",
+                    "assets/obras-en-proceso/barbacoa1-8.webp",
+                ] 
+            },
+            {
+                id:"bano-1",
+                titulo: "Construcción de baño en casa",
+                descripcion: "Construcción de baño completo en casa particular",
+                imagenPrincipal: "assets/obras-en-proceso/bano1-principal.webp",
+                fotos: [
+                    "assets/obras-en-proceso/bano1-principal.webp",
+                    "assets/obras-en-proceso/bano1-1.webp",
+                    "assets/obras-en-proceso/bano1-2.webp",
+                ]  
+            }
 
         ]
     },
@@ -252,6 +394,35 @@ const proyectos = [
                 "assets/herreria/estructura2-2.webp",
                 "assets/herreria/estructura2-3.webp",
             ]
+        },
+        {
+            id:"estructura-4",
+            titulo: "Estructura indsutrial para RioGas",
+            descripcion: "Construcción de estructura industrial para la empresa RioGas",
+            imagenPrincipal: "assets/herreria/estructura4-principal.webp",
+            fotos:[
+                "assets/herreria/estructura4-principal.webp",
+                "assets/herreria/estructura4-1.webp",
+                "assets/herreria/estructura4-2.webp",
+                "assets/herreria/estructura4-3.webp",
+                "assets/herreria/estructura4-5.webp",
+                "assets/herreria/estructura4-6.webp",
+                "assets/herreria/estructura4-7.webp",
+            ]
+        },
+        {
+            id:"estructura-5",
+            titulo: "Escalera Metálica para Casa",
+            descripcion: "Construcción de escalera metálica para casa ", 
+            imagenPrincipal: "assets/herreria/estructura5-principal.webp",
+            fotos:[
+                "assets/herreria/estructura5-principal.webp",
+                "assets/herreria/estructura5-1.webp",
+                "assets/herreria/estructura5-2.webp",
+                "assets/herreria/estructura5-3.webp",
+                "assets/herreria/estructura5-4.webp",
+            ]
+
         },
         {
             id:"estructura-3",
@@ -311,6 +482,23 @@ const proyectos = [
                 ]
             },
             {
+                id:"piso-1",
+                titulo:"Impermeabilización de Piso",    
+                descripcion:"Impermeabilización total en piso de madera ",
+                imagenPrincipal:"assets/imper/piso1-principal.webp",
+                fotos:[
+                    "assets/imper/piso1-principal.webp",
+                    "assets/imper/piso1-1.webp",
+                    "assets/imper/piso1-2.webp",
+                    "assets/imper/piso1-3.webp",
+                    "assets/imper/piso1-4.webp",
+                    "assets/imper/piso1-5.webp",
+                    "assets/imper/piso1-6.webp",
+                    "assets/imper/piso1-7.webp",
+                    "assets/imper/piso1-8.webp",
+                ]
+            },
+            {
                 id:"impermeabilizacion-2",
                 titulo:"Impermeabilización de Piso",
                 descripcion:"Impermeabilización de piso de madera",
@@ -334,6 +522,19 @@ const proyectos = [
                     "assets/imper/techo1-2.webp",
                     "assets/imper/techo1-3.webp",
                     "assets/imper/techo1-4.webp",
+                ]
+            },
+            {
+                id:"techo-2",
+                titulo:"Impermeabilizacion y Arreglo en Techo en Montevideo",   
+                descripcion:"Impermeabilización y reforma de una parte del techo de una casa en Montevideo",  
+                imagenPrincipal:"assets/imper/techo2-principal.webp",
+                fotos:[
+                    "assets/imper/techo2-principal.webp",
+                    "assets/imper/techo2-1.webp",
+                    "assets/imper/techo2-2.webp",
+                    "assets/imper/techo2-3.webp",
+                    "assets/imper/techo2-4.webp",
                 ]
             }
         ]
@@ -379,6 +580,32 @@ const proyectos = [
                     "assets/otros-proyectos/puerta1-1.webp",
                     "assets/otros-proyectos/puerta1-2.webp",
                     "assets/otros-proyectos/puerta1-3.webp",
+                ]
+            },
+            {
+                id: "puerta-2",
+                titulo: "Instalación de puerta corrediza de madera",
+                descripcion: "Instalación de puerta corrediza de madera en casa particular",
+                imagenPrincipal: "assets/otros-proyectos/puerta2-principal.webp",
+                fotos: [
+                    "assets/otros-proyectos/puerta2-principal.webp",
+                    "assets/otros-proyectos/puerta2-1.webp",
+                    "assets/otros-proyectos/puerta2-2.webp",
+                    "assets/otros-proyectos/puerta2-3.webp",
+                    "assets/otros-proyectos/puerta2-4.webp",
+                ]
+            },
+            {
+                id: "caneria-1",
+                titulo: "Instalación de cañería de agua",
+                descripcion: "Instalación de cañería de agua para casa en ciudad de la costa",
+                imagenPrincipal: "assets/otros-proyectos/caneria1-principal.webp",
+                fotos: [
+                    "assets/otros-proyectos/caneria1-principal.webp",
+                    "assets/otros-proyectos/caneria1-1.webp",
+                    "assets/otros-proyectos/caneria1-2.webp",
+                    "assets/otros-proyectos/caneria1-3.webp",
+                    "assets/otros-proyectos/caneria1-4.webp",
                 ]
             }
         ]

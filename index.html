@@ -13,6 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/jg-logo.png" as="image">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato&display=swap" as="style">
+
   </head>
   <body>  
     <nav id="desktop-nav">
@@ -57,9 +61,9 @@
   <section id="inicio">
     <div class="container">
     <div class="video-container">
-        <video autoplay muted loop>
-            <source src="assets/jgvideo.mp4" type="video/mp4">
-        </video>
+       <video autoplay muted loop playsinline preload="metadata" poster="assets/video-poster.jpg">
+    <source src="assets/jgvideo.mp4" type="video/mp4">
+</video>
     </div>
 </div>
   </section>  
@@ -93,6 +97,8 @@
                             <p><a href="#proyectos">Herreria</a></p>
                             <p><a href="#proyectos">Contenedores</a></p>
                             <p><a href="#proyectos">Isopaneles</a></p>
+                            <p><a href="#proyectos">Riegos</a></p>
+
                 </div>  
            </div>
             
