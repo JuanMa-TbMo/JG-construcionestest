@@ -159,6 +159,14 @@
   .contact-container h1 {
     font-size: 2rem;
   }
+  .img-container {
+    display: none;
+  }
+  
+  /* Ajustar el ancho del contenedor de texto al 100% */
+  .text-container {
+    width: 100%;
+  }
 
 }
 
